@@ -93,6 +93,7 @@ exports.loginUser = (req, res) => {
             res.redirect('/');
         });
     });
+
 };
 
 exports.logoutUser = (req, res) => {

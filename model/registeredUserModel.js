@@ -6,6 +6,7 @@ const findUserByEmail = (email, callback) => {
         if (err || results.length === 0) return callback(err || new Error("User not found"), null);
         callback(null, results[0]);
     });
+
 };
 
 module.exports = { findUserByEmail };
