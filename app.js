@@ -7,7 +7,7 @@ const userRoutes = require('./routes/userRoutes');
 const adminRoutes = require('./routes/adminRoutes');
 const registeredUserRoutes = require('./routes/registeredUserRoutes');
 
-const app = express();
+const app = express();s
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
